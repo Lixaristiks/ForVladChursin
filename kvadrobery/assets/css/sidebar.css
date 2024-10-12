@@ -9,7 +9,7 @@ nav {
     margin-left: 10px;
 }
 .side-section-title {
-    border-bottom: 1px solid #383838;
+    border-bottom: 1px solid var(--title-color);
 }
 .page-nav {
     margin-bottom: 30px;
