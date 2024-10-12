@@ -1,0 +1,15 @@
+:root {
+    --main-border-color: #61c7d4;
+    --link-color: #2167b8;
+}
+body {
+    font-family: "Open Sans";
+    background-color: #e7e7e7;
+}
+a:hover {
+    border-bottom: 1px solid var(--link-color);
+}
+
+.wrapper {
+    display: flex;
+}
