@@ -1,0 +1,75 @@
+:root {
+    --main-border-color: #61c7d4;
+    --title-color: #646464;
+    --link-color: #2167b8;
+}
+body {
+    font-family: "Open Sans";
+    background-color: #e7e7e7;
+    color: var(--title-color);
+}
+a:hover {
+    border-bottom: 1px solid var(--link-color);
+}
+
+.wrapper {
+    display: flex;
+}
+main {
+    width: 100%;
+    margin: 0 25px;
+}
+section {
+    margin-top: 50px;
+}
+.container-info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 30px;
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
+.text-info {
+    margin-right: 20px;
+    text-align: justify;
+}
+.p-text {
+    margin-top: 15px;
+}
+
+/* SECTION CARD INFO */
+
+.card-info {
+    min-width: 300px;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+.c-title {
+    margin-bottom: 10px;
+    padding: 7px;
+    background-color: #6ba9f0;
+    
+}
+.c-title p {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+
+/* SECTION CARD IMAGE */
+
+.section-card-image {
+    min-width: 200px;
+    max-width: 300px;
+    max-height: 250px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #000000;
+}
+.section-card-image p {
+    font-size: 13px;
+    color: #000000;
+}
